@@ -1,0 +1,55 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	background:#ee0a;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+div.period{
+	background:#ccc;
+	
+}
+caption{
+	color:#fff;
+	font-size:30px;
+}
+table{
+	background:#fff;
+	margin:auto;
+	padding:20px;
+	padding-right:40px;
+}
+thead,
+.red{
+	color:#f00;
+	padding:10px;
+	border:none;
+}
+tr{
+	text-transform:capitalize;
+}
+thead tr{
+	text-align:center
+}
+td:empty{
+	border:none;
+}
+tbody tr td,
+tfoot tr td{
+	border:2px solid #ddd;
+	width:50px;
+	text-align:center
+}
+tbody tr td div,
+tfoot tr td div{
+	color:#ccc;
+	font-size:5px;
+}
+.no-border{
+	border:none;
+}
+tr:empty{
+	height:20px;
+}
